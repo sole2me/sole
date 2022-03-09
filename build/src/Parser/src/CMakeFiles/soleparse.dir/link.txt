@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libsoleparse.a CMakeFiles/soleparse.dir/element.cpp.o CMakeFiles/soleparse.dir/parse.cpp.o CMakeFiles/soleparse.dir/sole.lex.cpp.o CMakeFiles/soleparse.dir/sole.tab.cpp.o
+/usr/bin/ranlib ../../../lib/libsoleparse.a

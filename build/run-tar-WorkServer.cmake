@@ -1,0 +1,7 @@
+EXECUTE_PROCESS(COMMAND /home/testuser/cmake/cmake/bin/cmake -E echo mkdir -p /home/app_user/sole/SoleApp/build/tmp/WorkServer)
+EXECUTE_PROCESS(COMMAND /home/testuser/cmake/cmake/bin/cmake -E echo rm -rf /home/app_user/sole/SoleApp/build/tmp/WorkServer)
+EXECUTE_PROCESS(COMMAND /home/testuser/cmake/cmake/bin/cmake -E make_directory /home/app_user/sole/SoleApp/build/tmp/WorkServer)
+EXECUTE_PROCESS(COMMAND /home/testuser/cmake/cmake/bin/cmake -E echo copy bin/WorkServer /home/app_user/sole/SoleApp/build/tmp/WorkServer/)
+EXECUTE_PROCESS(COMMAND /home/testuser/cmake/cmake/bin/cmake -E copy bin/WorkServer /home/app_user/sole/SoleApp/build/tmp/WorkServer/)
+EXECUTE_PROCESS(COMMAND /home/testuser/cmake/cmake/bin/cmake -E chdir /home/app_user/sole/SoleApp/build/tmp/ tar czfv WorkServer.tgz WorkServer)
+EXECUTE_PROCESS(COMMAND /home/testuser/cmake/cmake/bin/cmake -E copy_if_different /home/app_user/sole/SoleApp/build/tmp/WorkServer.tgz /home/app_user/sole/SoleApp/build/WorkServer.tgz)

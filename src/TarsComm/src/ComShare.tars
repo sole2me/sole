@@ -1,0 +1,21 @@
+
+module sole
+{
+     struct Data
+     {
+          1 require long id;
+          2 require string type;
+          3 optional vector<Data> v;
+          4 optional map<string, Data > m;
+          5 optional string sV;
+          6 optional double dV;
+          7 optional long nV;
+     };
+     
+     struct Event
+     {
+          1 require long id;
+          2 require string type;
+          3 require Data w;
+     };
+};

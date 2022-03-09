@@ -1,0 +1,84 @@
+var ttt = array
+            :           
+[1,2,"3"];
+
+ttt;
+
+var ggg = flow;
+
+
+
+flow["abc"] = 123;
+
+alias hhhh = flow["abc"];
+
+hhhh = hhhh + 8;
+
+alias abcdef = ttt;
+
+abcdef[0] = 33;
+
+var ttt123 = object
+            :           
+{"name":"laozi",
+"age":[
+    {"jjjjj":0},
+    {"jjjjj":0},
+    {"jjjjj":0},
+    {"jjjjj":0},
+    {"jjjjj":0}
+    ]
+};
+
+alias sssss = ttt123["name"];
+
+var yyyy =9 ;
+
+ttt123["age"][0]["jjjjj"] = "iiiii";
+
+ttt123["age"][1+0]["jjjjj"] = ttt123["age"][0]["jjjjj"] + ttt123["age"][0]["jjjjj"] + "test_sole";
+
+ttt123["age"][2]["jjjjj"] = array:[3,4,"a"];
+
+ttt123["age"][3]["jjjjj"] = 66;
+
+var index = 3;
+
+ttt123["age"][index]["jjjjj"] = 77;
+ttt123["age"][index+1]["jjjjj"] = 88;
+
+ttt123["name"] = "sole";
+
+ttt123["list"][0] = 10;
+ttt123["list"][1] = 11;
+
+ttt123["age"][3]["jjjjj"]["list"][0] = "1111111111111111111";
+
+var age2 = 20,aaa=yyyy+2;
+
+var age21 = 20,aaa1=1+2;
+
+var bbb;
+bbb=6+5+3+8;
+
+if false then
+    var aa1;
+    var ttt=4;
+elsif false then
+    var rrrrr1=1110;
+    var rrrrr2=66666;
+elsif false then
+    var rrrrr3=1110;
+    var rrrrr4=66666;
+else
+    var rrrrr5=1110;
+    var rrrrr6=66666;
+    if bbb == bbb then
+        var ooooooo="hello world!";
+        sssss = "jiji";
+    end if;
+end if;
+
+ //rrrrr2 = 88;
+//rrrrr3=1110;
+//rrrrr5=1110;

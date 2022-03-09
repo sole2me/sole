@@ -1,0 +1,21 @@
+# Hashes of file build rules.
+05fb1a5cebb7fbd3f38bca2e937beccf ../src/Grammar/src/sole.lex.cpp
+11916ccbb271c1e312882f5ad5fffc61 ../src/Grammar/src/sole.tab.hpp
+9048b9ecfcb86c700d2c05771cf0d830 ../src/Parser/src/sole.lex.cpp
+9048b9ecfcb86c700d2c05771cf0d830 ../src/Parser/src/sole.tab.cpp
+9048b9ecfcb86c700d2c05771cf0d830 ../src/Parser/src/sole.tab.hpp
+dc3c8ceb0a54c0c0ed0b3707fd3d397e ../src/TarsComm/src/ComShare.h
+b4717dfd3658a383f785b7ab0b5cf256 ../src/WorkServer/src/Service.h
+4c96b957a548662039215059e828eef7 CMakeFiles/release
+3aef23688e1a4cf813de40b05cf413a1 CMakeFiles/tar
+94df0901cee3c41345c557b722fbd59f CMakeFiles/upload
+59786bffa24251266314e5928cc77d23 CMakeFiles/upload-tars
+a356e02b5705e50146c76af671bfa40e src/Grammar/src/CMakeFiles/COPY-LEX-YACC
+e6fa2015dc86178b13ae142007a75771 src/TarsComm/src/CMakeFiles/TarsComm
+c55e753b4a3576333e368a09c66dfffd src/WorkServer/src/CMakeFiles/WorkServer-release
+e5772cb18dfdc120d0d3cf8c984b575d src/WorkServer/src/CMakeFiles/WorkServer-tar
+0b2c5e44806098a52108ef07f526cc22 src/WorkServer/src/CMakeFiles/WorkServer-tars-merge
+4f0342a06988986a784a7457deb82d99 src/WorkServer/src/CMakeFiles/WorkServer-upload
+fd377394012779524a4451ab63131fb0 src/WorkServer/src/CMakeFiles/WorkServer-upload-tars
+e5772cb18dfdc120d0d3cf8c984b575d src/WorkServer/src/CMakeFiles/tars-WorkServer
+694cf3c5d5749bb8ddd44171c1ac5f22 src/WorkServer/src/WorkServer.tgz
