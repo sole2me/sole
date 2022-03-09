@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libsoleengine.a CMakeFiles/soleengine.dir/Actuator.cpp.o CMakeFiles/soleengine.dir/Engine.cpp.o CMakeFiles/soleengine.dir/Operator.cpp.o CMakeFiles/soleengine.dir/OperatorImp.cpp.o
-/usr/bin/ranlib ../../../lib/libsoleengine.a

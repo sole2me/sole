@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libsoleutils.a CMakeFiles/soleutils.dir/SoleTools.cpp.o
-/usr/bin/ranlib ../../../lib/libsoleutils.a
