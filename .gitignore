@@ -1,0 +1,10 @@
+#.gitignore
+.vscode
+.o
+.a
+build
+file.txt
+flow.json
+v.json
+statment.json
+d.json
