@@ -1,4 +1,15 @@
-﻿#include "ServiceImp.h"
+﻿/**
+ * @file ServiceImp.cpp
+ * @author sule (sole2me@vip.sina.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-03-10
+ * 
+ * @copyright Copyright (c) 2022, le su, All rights reserved.
+ * 
+ */
+
+#include "ServiceImp.h"
 #include "servant/Application.h"
 #include "Schedule.h"
 using namespace std;
