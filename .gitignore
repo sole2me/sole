@@ -8,3 +8,8 @@ flow.json
 v.json
 statment.json
 d.json
+sole.lex.cpp
+sole.tab.cpp
+sole.tab.hpp
+ComShare.h
+Service.h
