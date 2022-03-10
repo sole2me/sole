@@ -2,7 +2,7 @@
 .vscode
 .o
 .a
-build
+build/*
 file.txt
 flow.json
 v.json
