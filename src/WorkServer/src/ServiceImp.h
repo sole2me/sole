@@ -1,4 +1,13 @@
-﻿#ifndef _ServiceImp_H_
+﻿/**
+ * @file ServiceImp.h
+ * @author sule (sole2me@vip.sina.com)
+ * @brief 
+ * 
+ * @copyright Copyright (c) 2022, le su, All rights reserved.
+ * 
+ */
+
+#ifndef _ServiceImp_H_
 #define _ServiceImp_H_
 
 #include "servant/Application.h"
