@@ -16,15 +16,15 @@ using namespace std;
 void WorkImp::initialize()
 {
     //initialize servant here:
-    //...
+    //... /
 }
 
 //////////////////////////////////////////////////////
 void WorkImp::destroy()
 {
     //destroy servant here:
-    //...
-}                                                                                                                                
+    ///...
+}
 
 tars::Int32 WorkImp::wakeup(const std::string & id,tars::Int64 eventId,sole::Data &data,tars::TarsCurrentPtr current)
 {
@@ -43,5 +43,19 @@ tars::Int32 WorkImp::wakeup(const std::string & id,tars::Int64 eventId,sole::Dat
    // Schedule s;
     //data.c;
    // s.doWork(e,d);
+
+   /*
+   in
+   deal
+   out
+   */
+
 	return 0;
 }
+
+tars::Int32 WorkImp::doCustomMessage(bool bExpectIdle)
+{
+    //
+    return 0;
+}
+

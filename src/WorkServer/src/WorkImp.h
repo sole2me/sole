@@ -39,6 +39,11 @@ public:
      *
      */
     virtual tars::Int32 wakeup(const std::string & id,tars::Int64 eventId,sole::Data &data,tars::TarsCurrentPtr current);
+    
+    /**
+     *
+     */
+    virtual tars::Int32 doCustomMessage(bool bExpectIdle);
 };
 /////////////////////////////////////////////////////
 #endif
