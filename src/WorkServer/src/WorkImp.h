@@ -1,5 +1,5 @@
 ﻿/**
- * @file ServiceImp.h
+ * @file WorkImp.h
  * @author sule (sole2me@vip.sina.com)
  * @brief 
  * 
@@ -7,23 +7,23 @@
  * 
  */
 
-#ifndef _ServiceImp_H_
-#define _ServiceImp_H_
+#ifndef _WorkImp_H_
+#define _WorkImp_H_
 
 #include "servant/Application.h"
-#include "Service.h"
+#include "Work.h"
 #include "ComShare.h"
 /**
  *
  *
  */
-class ServiceImp : public sole::Service
+class WorkImp : public sole::Work
 {
 public:
     /**
      *
      */
-    virtual ~ServiceImp() {}
+    virtual ~WorkImp() {}
 
     /**
      *

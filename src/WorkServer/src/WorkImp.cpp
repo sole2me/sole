@@ -1,5 +1,5 @@
 ﻿/**
- * @file ServiceImp.cpp
+ * @file WorkImp.cpp
  * @author sule (sole2me@vip.sina.com)
  * @brief 
  * 
@@ -7,26 +7,26 @@
  * 
  */
 
-#include "ServiceImp.h"
+#include "WorkImp.h"
 #include "servant/Application.h"
 #include "Schedule.h"
 using namespace std;
 
 //////////////////////////////////////////////////////
-void ServiceImp::initialize()
+void WorkImp::initialize()
 {
     //initialize servant here:
     //...
 }
 
 //////////////////////////////////////////////////////
-void ServiceImp::destroy()
+void WorkImp::destroy()
 {
     //destroy servant here:
     //...
-}
+}                                                                                                                                
 
-tars::Int32 ServiceImp::wakeup(const std::string & id,tars::Int64 eventId,sole::Data &data,tars::TarsCurrentPtr current)
+tars::Int32 WorkImp::wakeup(const std::string & id,tars::Int64 eventId,sole::Data &data,tars::TarsCurrentPtr current)
 {
     //   int j;
     // j = 0;

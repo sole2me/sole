@@ -1,7 +1,7 @@
 #include "../../TarsComm/src/ComShare.tars"
 module sole
 {
-	interface Service
+	interface Work
     {
         int wakeup(routekey string id,long eventId,out Data data);
     };

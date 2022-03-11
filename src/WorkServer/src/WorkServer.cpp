@@ -1,5 +1,5 @@
 ﻿#include "WorkServer.h"
-#include "ServiceImp.h"
+#include "WorkImp.h"
 #include "Schedule.h"
 using namespace std;
 
@@ -13,7 +13,7 @@ WorkServer::initialize()
     //initialize application here:
     //...
 
-    addServant<ServiceImp>(ServerConfig::Application + "." + ServerConfig::ServerName + ".ServiceObj");
+    addServant<WorkImp>(ServerConfig::Application + "." + ServerConfig::ServerName + ".WorkObj");
 }
 /////////////////////////////////////////////////////////////////
 void
