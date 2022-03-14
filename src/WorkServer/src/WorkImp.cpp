@@ -17,6 +17,10 @@ void WorkImp::initialize()
 {
     //initialize servant here:
     //... /
+    if(1)
+    {
+        ;
+    }
 }
 
 //////////////////////////////////////////////////////
