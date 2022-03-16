@@ -5,6 +5,7 @@ using namespace std;
 
 
 WorkServer g_app;
+sole::SoleApplicationPtr WorkServer::m_application;
 
 /////////////////////////////////////////////////////////////////
 void

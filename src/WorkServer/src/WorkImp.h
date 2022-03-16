@@ -13,6 +13,8 @@
 #include "servant/Application.h"
 #include "Work.h"
 #include "ComShare.h"
+#include "SoleBase.h"
+
 /**
  *
  *
@@ -44,6 +46,8 @@ public:
      *
      */
     virtual tars::Int32 doCustomMessage(bool bExpectIdle);
+private:
+    sole::SoleHandlePtr  m_handle;
 };
 /////////////////////////////////////////////////////
 #endif

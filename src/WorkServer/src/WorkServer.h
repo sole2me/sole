@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "servant/Application.h"
+#include "SoleBase.h"
 
 using namespace tars;
 
@@ -27,6 +28,8 @@ public:
      *
      **/
     virtual void destroyApp();
+
+    static sole::SoleApplicationPtr m_application;
 };
 
 extern WorkServer g_app;

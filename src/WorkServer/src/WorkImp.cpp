@@ -17,6 +17,9 @@ void WorkImp::initialize()
 {
     //initialize servant here:
     //... /
+    //
+    m_handle = new sole::SoleHandle();
+
     if(1)
     {
         ;
