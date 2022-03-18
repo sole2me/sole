@@ -5,7 +5,6 @@ using namespace std;
 
 
 WorkServer g_app;
-sole::SoleApplicationPtr WorkServer::m_application;
 
 /////////////////////////////////////////////////////////////////
 void
@@ -15,6 +14,10 @@ WorkServer::initialize()
     //...
 
     addServant<WorkImp>(ServerConfig::Application + "." + ServerConfig::ServerName + ".WorkObj");
+
+    g_soleApp = new sole::SoleHandle();
+
+    g_soleEventor = new sole::SoleEventor();
 }
 /////////////////////////////////////////////////////////////////
 void

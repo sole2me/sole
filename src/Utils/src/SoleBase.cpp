@@ -3,9 +3,33 @@
 
 namespace sole
 {
-    void SoleEventor::test()
+    void SoleEventor::addHand(string hName,Data d)
     {
-        ;
+        tars::Int64 hIndex = m_v.size();
+        unordered_map<string,tars::Int64>::iterator it = m_hMapping.find(hName);
+        
+        if(it == m_hMapping.end())
+        {
+            m_hMapping[hName] = hIndex;
+            m_v.push_back(d);
+        }
+        else
+        {
+            throw ;
+        }
+    }
+
+    Data SoleEventor::getHand(string hName)
+    {
+        unordered_map<string,tars::Int64>::iterator it = m_hMapping.find(hName);
+        if(it != m_hMapping.end())
+        {
+            return m_v[it->second];
+        }
+        else
+        {
+            throw ;
+        }
     }
 
     void SoleHandle::addHand(string hName,SoleBasePtr p)

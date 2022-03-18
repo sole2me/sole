@@ -15,6 +15,9 @@
 #include "ComShare.h"
 #include "SoleBase.h"
 
+extern sole::SoleHandlePtr g_soleApp;
+extern sole::SoleEventorPtr g_soleEventor;
+
 /**
  *
  *

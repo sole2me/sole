@@ -12,6 +12,10 @@
 #include "Schedule.h"
 using namespace std;
 
+sole::SoleHandlePtr g_soleApp;
+
+sole::SoleEventorPtr g_soleEventor;
+
 //////////////////////////////////////////////////////
 void WorkImp::initialize()
 {
@@ -20,10 +24,8 @@ void WorkImp::initialize()
     //
     m_handle = new sole::SoleHandle();
 
-    if(1)
-    {
-        ;
-    }
+    m_handle->addHand("application",g_soleApp);
+    m_handle->addHand("servant",new sole::SoleHandle());
 }
 
 //////////////////////////////////////////////////////

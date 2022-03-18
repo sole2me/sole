@@ -11,37 +11,19 @@ namespace sole
         public:
             virtual ~SoleBase(){};
     };
-
     typedef tars::TC_AutoPtr<SoleBase> SoleBasePtr;
 
     class SoleEventor : public SoleBase
     {
         public:
             SoleEventor() { }
-            void test();
-            tars::Int64 m_eventorId;
-            Data m_eventor;
+            void addHand(string hName,Data d);
+            Data getHand(string hName);
+        private:
+            unordered_map<string,tars::Int64> m_hMapping;
+            vector<Data> m_v;
     };
-
     typedef tars::TC_AutoPtr<SoleEventor> SoleEventorPtr;
-
-    class SoleApplication : public SoleBase
-    {
-        public:
-            SoleApplication() { }
-            tars::Int64 m_applicationId;
-    };
-
-    typedef tars::TC_AutoPtr<SoleApplication> SoleApplicationPtr;
-
-    class SoleServant : public SoleBase
-    {
-        public:
-            SoleServant() { }
-            tars::Int64 m_servantId;
-    };
-
-    typedef tars::TC_AutoPtr<SoleServant> SoleServantPtr;
 
     class SoleHandle : public SoleBase
     {
@@ -53,7 +35,6 @@ namespace sole
             unordered_map<string,tars::Int64> m_hMapping;
             vector<SoleBasePtr> m_v;
     };
-
     typedef tars::TC_AutoPtr<SoleHandle> SoleHandlePtr;
 };
 
