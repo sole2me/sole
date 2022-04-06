@@ -11,7 +11,7 @@ void
 WorkServer::initialize()
 {
     //initialize application here:
-    //...
+    //
 
     addServant<WorkImp>(ServerConfig::Application + "." + ServerConfig::ServerName + ".WorkObj");
 
