@@ -4,6 +4,7 @@
 #include "SolePublic.h"
 #include "SoleException.h"
 
+
 namespace sole
 {
     void Actuator::doContext(sole::Data & d,sole::Data & v)
