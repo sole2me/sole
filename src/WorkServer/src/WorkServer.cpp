@@ -34,6 +34,7 @@ main(int argc, char* argv[])
 {
     sole::Schedule::doTest();
     return 0;
+    
     try
     {
         g_app.main(argc, argv);
